@@ -2,7 +2,7 @@ let edad = 62;
 let sexo = "mujer";
 
 if ((sexo == "mujer" && edad >= 60) || (sexo == "hombre" && edad >= 65)) {
-    console.log("Podés jubilarte");
+    document.getElementById("resultado").innerHTML = "¡Podés jubilarte!";
 } else {
-    console.log("Todavía no podés jubilarte");
+    document.getElementById("resultado").innerHTML = "Todavía no podés jubilarte";
 }
